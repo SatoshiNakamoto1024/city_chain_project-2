@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/city_chain_project-2/static/css/main.57b19d8c.css",
-    "main.js": "/city_chain_project-2/static/js/main.e7eb24bc.js",
+    "main.js": "/city_chain_project-2/static/js/main.10d16f10.js",
     "index.html": "/city_chain_project-2/index.html",
     "main.57b19d8c.css.map": "/city_chain_project-2/static/css/main.57b19d8c.css.map",
-    "main.e7eb24bc.js.map": "/city_chain_project-2/static/js/main.e7eb24bc.js.map"
+    "main.10d16f10.js.map": "/city_chain_project-2/static/js/main.10d16f10.js.map"
   },
   "entrypoints": [
     "static/css/main.57b19d8c.css",
-    "static/js/main.e7eb24bc.js"
+    "static/js/main.10d16f10.js"
   ]
 }
