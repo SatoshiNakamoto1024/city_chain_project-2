@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/city_chain_project-2/static/css/main.96cb8f02.css",
+    "main.js": "/city_chain_project-2/static/js/main.b2afc462.js",
+    "index.html": "/city_chain_project-2/index.html",
+    "main.96cb8f02.css.map": "/city_chain_project-2/static/css/main.96cb8f02.css.map",
+    "main.b2afc462.js.map": "/city_chain_project-2/static/js/main.b2afc462.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96cb8f02.css",
+    "static/js/main.b2afc462.js"
+  ]
+}
