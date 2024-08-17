@@ -42,14 +42,33 @@ function SendPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('/send', formData)
-      .then(response => {
-        console.log('Success:', response);
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  };
+    // Flaskサーバーにデータを送信
+    axios.post('http://localhost:5000/send', formData)
+        .then(response => {
+            console.log('Success:', response);
+            // フォームをクリア
+            setFormData({
+                sender: '',
+                receiver: '',
+                amount: '',
+                subject: '',
+                actionLevel: '',
+                dimension: '',
+                fluctuation: '',
+                organismName: '',
+                municipality: '',
+                details: '',
+                goodsOrMoney: ''
+            });
+            // メッセージを表示
+            alert('データを送信しました！');
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            // エラーメッセージを表示
+            alert('データの送信に失敗しました。');
+        });
+};
 
   return (
     <div className="SendPage">
